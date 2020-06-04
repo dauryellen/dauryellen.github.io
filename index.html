@@ -1,142 +1,267 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Apresentação - Daury Mendes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/be4b1a88a8.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Daury Mendes</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="menu-container">
-        <div class="menu-logo">
-          <a href="#about"><i class="fas fa-code"></i></a>
-        </div>
-        <nav class="menu-items">
-          <ul>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#">Educação</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+    />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
-    <section class="about" id="about">
-      <div class="about-container">
-        <img src="./img/profile.jpg" alt="Foto de Daury" />
-        <h1>Daury <span id="lastname">Mendes</span></h1>
-        <h2>web developer</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/dauryellen" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Daury Mendes</span>
+        <span class="d-none d-lg-block">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/profile.jpg"
+            alt="imagem de perfil da daury"
+          />
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/dauryellen/" target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experiência</a
+            >
           </li>
-          <li>
-            <a href="https://codepen.io/dauryellen" target="_blank"
-              ><i class="fab fa-codepen"></i
-            ></a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Educação</a>
           </li>
-          <li>
-            <a href="https://twitter.com/dauryoque" target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
           </li>
-          <li>
-            <a href="https://www.facebook.com/dauryellen" target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/dauryellen/" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interesses</a
+            >
           </li>
         </ul>
-        <p>
-          Eu sou uma web developer iniciante. Estou estudando e praticando HTML,
-          CSS e JavaScript. Não possuo nenhuma experiência profissional na área
-          por enquanto, mas estou escrevendo alguns códigos e colocando no meu
-          <a href="https://github.com/dauryellen" target="_blank">GitHub</a>.
-          Visite o meu
-          <a href="https://dev.to/dauryellen" target="_blank"> blog</a> e veja o
-          que eu estou aprendendo no momento.
-        </p>
       </div>
-    </section>
+    </nav>
 
-    <section class="skills" id="skills">
-      <h1 class="title-skills">Minhas Habilidades</h1>
-      <div class="skills-container">
-        <p>HTML - <i class="fab fa-html5"></i></p>
-        <div class="container-skill">
-          <div class="skills-item html">80%</div>
+    <div class="container-fluid p-0">
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="about"
+      >
+        <div class="w-100">
+          <h1 class="mb-0">
+            Daury
+            <span class="text-primary">Mendes</span>
+          </h1>
+          <div class="subheading mb-5">
+            Fortaleza - Ceará · +55 85 98547 3001 ·
+            <a href="mailto:dauryellen@live.com">dauryellen@live.com</a>
+          </div>
+          <p class="lead mb-5">
+            Eu sou estudante de desenvolvimento web, conheço o mundo da
+            programação há bastante tempo, desde 2008. Nunca saí do básico, porém decidi me
+            aprofundar no ano de 2020. Meu foco principal é HTML, CSS e
+            JavaScript. Não possuo nenhuma experiência na área no momento, mas
+            estou escrevendo alguns códigos e colocando no meu
+            <a
+              href="https://github.com/dauryellen"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >.
+          </p>
+          <div class="social-icons">
+            <a href="https://github.com/dauryellen" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dauryellen/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://codepen.io/dauryellen">
+              <i class="fab fa-codepen"></i>
+            </a>
+            <a href="https://twitter.com/dauryoque">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/dauryellen">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/dauryellen/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
         </div>
+      </section>
 
-        <p>CSS - <i class="fab fa-css3-alt"></i></p>
-        <div class="container-skill">
-          <div class="skills-item css">50%</div>
-        </div>
+      <hr class="m-0" />
 
-        <p>JavaScript - <i class="fab fa-js-square"></i></p>
-        <div class="container-skill">
-          <div class="skills-item js">40%</div>
-        </div>
+      <section
+        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Experiência</h2>
 
-        <p>Git - <i class="fab fa-git-square"></i></p>
-        <div class="container-skill">
-          <div class="skills-item git">55%</div>
-        </div>
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Agente de Pesquisa e Mapeamento</h3>
+              <div class="subheading mb-3">
+                Instituto Brasileiro de Geografia e Estatística
+              </div>
+              <p>
+                Dou suporte à realização e/ou à atualização dos levantamentos geográficos que estruturam a 
+                execução das pesquisas de natureza estatística, identificando, quando necessário, 
+                as alterações da divisão político-administrativa. Preparo em gabinete ou em
+                campo insumos para a realização de coleta de dados e de imagens de satélites e fotografias aéreas para as atividades de coleta.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Julho de 2017 - Presente</span>
+            </div>
+          </div>
 
-        <p>GitHub - <i class="fab fa-github-square"></i></p>
-        <div class="container-skill">
-          <div class="skills-item github">70%</div>
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Monitora de Matemática e informática</h3>
+              <div class="subheading mb-3">EEIF Vinícius de Morais</div>
+              <p>
+                Planejava aulas para auxiliar alunos com dificuldades
+                de aprendizagem. Utilizava a informática como recurso didático para
+                o ensino da matemática para crianças do ensino fundamental I.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"
+                >Janeiro de 2013 - Dezembro de 2016</span
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="projects" id="projects">
-      <h1 class="title-projects">Projetos Pessoais</h1>
-      <div class="list-projects">
-        <div class="project-item">
-          <img src="./img/project1.png" alt="" />
-          <p>Ecoleta</p>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Educação</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Instituto Federal do Ceará</h3>
+              <div class="subheading mb-3">Técnico da Área de Informática</div>
+              <div>Desenvolvimento de Software</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Agosto de 2006 - Maio de 2008</span>
+            </div>
+          </div>
         </div>
-        <div class="project-item">
-          <img src="./img/project2.png" alt="" />
-          <p>Minha Página Pessoal</p>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Habilidades</h2>
+
+          <div class="subheading mb-3">
+            Linguagens de Programação &amp; outras Ferramentas
+          </div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-js-square"></i>
+            </li>
+          </ul>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="interests"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Interesses</h2>
+          <p>
+            Além de gostar muito de aprender desenvolvimento web, eu uso o meu tempo livre
+            para ficar em casa. Sou caseira mesmo. Gosto de fazer exercícios físicos, 
+            jogar videogame, ver jogo de futebol na tv (Sou Tricolor do Pici) e assistir 
+            desenhos animados, dos antigos aos mais atuais. Gosto de desenhar também, mas
+            possuo um talento um pouco duvidoso.
+          </p>
+          <p class="mb-0">
+            Geralmente, quando eu resolvo sair de casa vou à casa de amigos ou para bares com 
+            música ao vivo. Também saio pra levar minha gatinha pra comer o matinho dela.
+          </p>
         </div>
-        <div class="project-item">
-          <img src="./img/project3.png" alt="" />
-          <p>Casa Criativa - WorkshopDev</p>
-        </div>
-        <div class="project-item">
-          <img src="./img/project5.png" alt="" />
-          <p>Meu blog no Dev.to</p>
-        </div>
-        <div class="project-item">
-          <img src="./img/project4.png" alt="" />
-          <p>Be The Hero - Omnistack 11.0</p>
-        </div>
-        <div class="project-item">
-          <img src="./img/project6.png" alt="" />
-          <p>Projetos no Codepen</p>
-        </div>
-      </div>
-    </section>
+      </section>
+
+      <hr class="m-0" />
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
   </body>
 </html>
