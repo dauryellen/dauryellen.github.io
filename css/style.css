@@ -233,66 +233,48 @@ img {
 
 .html {
   width: 80%;
-  /*background: #1115d3;*/
-  /*background: linear-gradient(135deg, #1115d355, #1115d3);*/
-  background: linear-gradient(
-    to right,
-    #1115d366 0%,
-    #1115d399 25%,
-    #1115d3aa 50%,
-    #1115d3cc 75%,
-    #1115d3ff 100%
-  );
+  background: linear-gradient(to right, #5614b0 0%, #dbd65c 51%, #5614b0 100%);
+  transition: 1s;
 }
+
+.html:hover {
+  background: linear-gradient(to right, #dbd65c 0%, #5614b0 51%, #dbd65c 100%);
+}
+
 .css {
   width: 50%;
-  /*background-color: #056b1f;*/
-  background: linear-gradient(
-    to right,
-    #056b1f66 0%,
-    #056b1f99 25%,
-    #056b1faa 50%,
-    #056b1fcc 75%,
-    #056b1fff 100%
-  );
+  background: linear-gradient(to right, #52c234 0%, #fdfc47 51%, #52c234 100%);
+  transition: 1s;
+}
+
+.css:hover {
+  background: linear-gradient(to right, #fdfc47 0%, #52c234 51%, #fdfc47 100%);
 }
 .js {
   width: 40%;
-  /*background-color: #f44336;*/
-  background: linear-gradient(
-    to right,
-    #f4433666 0%,
-    #f4433699 25%,
-    #f44336aa 50%,
-    #f44336cc 75%,
-    #f44336ff 100%
-  );
+  background: linear-gradient(to right, #7b4397 0%, #dc2430 51%, #7b4397 100%);
+}
+
+.js:hover {
+  background: linear-gradient(to right, #dc2430 0%, #7b4397 51%, #dc2430 100%);
 }
 
 .git {
   width: 55%;
-  /*background-color: #f73893;*/
-  background: linear-gradient(
-    to right,
-    #f7389366 0%,
-    #f7389399 25%,
-    #f73893aa 50%,
-    #f73893cc 75%,
-    #f73893ff 100%
-  );
+  background: linear-gradient(to right, #00c9ff 0%, #92fe9d 51%, #00c9ff 100%);
+}
+
+.git:hover {
+  background: linear-gradient(to right, #92fe9d 0%, #00c9ff 51%, #92fe9d 100%);
 }
 
 .github {
   width: 70%;
-  /*background-color: #663399;*/
-  background: linear-gradient(
-    to right,
-    #66339966 0%,
-    #66339999 25%,
-    #663399aa 50%,
-    #663399cc 75%,
-    #663399ff 100%
-  );
+  background: linear-gradient(to right, #642b73 0%, #c6426e 51%, #642b73 100%);
+}
+
+.github:hover {
+  background: linear-gradient(to right, #c6426e 0%, #642b73 51%, #c6426e 100%);
 }
 
 #lastname {
